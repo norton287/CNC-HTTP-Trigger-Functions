@@ -1,4 +1,4 @@
-👋 Greetings! This Azure Function is the Command and Control function that communicates with the three other polling functions (Is It Up Check One/Two/Three, see those repose for those specific code items) and processes and returns their JSON data to the mobile after after a successful polling cycle.
+👋 Greetings! These Azure Functions are the Command and Control functions that communicates with the three other polling functions (Is It Up Check One/Two/Three, see those repose for those specific code items) and processes and returns their JSON data to the mobile after after a successful polling cycle.
 
 1. **Server List:** You provide a list of web servers you want to monitor via the mobile app.
 2. **The CNC Purpose:**  This function sends the configured list of URLs to each of the three polling functions and then awaits their JSON replies.
