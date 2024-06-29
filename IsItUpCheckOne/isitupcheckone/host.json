@@ -1,0 +1,16 @@
+{
+    "version": "2.0",
+    "logging": {
+            "LogLevel": {
+                        "Default": "Debug",
+                        "System": "Debug",
+                        "Microsoft": "Warning"
+                    },            
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            }
+        }
+    }
+}
